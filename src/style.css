@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.desktop .slider .swiper-button-next,
+.desktop .slider .swiper-button-prev {
+    background-color: white;
+}    

@@ -1,0 +1,444 @@
+{
+  "product": [
+    {
+      "id": "2",
+      "imageUrl": "data:image/jpeg;base64,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",
+      "title": "PS4",
+      "discount": "12",
+      "price": "1600000",
+      "realPrice": "1700000"
+    },
+    {
+      "id": "1",
+      "imageUrl": "data:image/jpeg;base64,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",
+      "title": "PS4",
+      "discount": "12",
+      "price": "1600000",
+      "realPrice": "1700000"
+    }
+  ],
+  "story": [
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/e2e641bf8c146454970d6e2c5a9bf7a8ae3c35dc_1732972038.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": "راهنمای خرید ",
+      "id": "76"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/41ce87177f0ffd0fd64e83a4238e677327b0fb30_1733077791.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": "بهترین لپ تاپ ",
+      "id": "233b"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/9e01a5142d80ed2caa3d56481a4f496d64ae34e3_1732743811.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": "نکات خرید تبلت",
+      "id": "4265"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/e6563779b933e6aca6a7bd2028e471eb3d01a0d4_1733007908.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": " سامسونگ و اپل",
+      "id": "3e42"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/1c605cf4e433ae1d0d5b14976a5b914c06f74dce_1732643844.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": " کامیپوتر اداری",
+      "id": "2522"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/5b5afb93b0b75a2ed1a6e145af219892fd2c0d57_1732560969.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": " گوشی اندروید",
+      "id": "6073"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/398b44ef849c186998ce3e440b2f77d2e8afd03b_1732843511.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": " خرید گوشی عکاسی",
+      "id": "4720"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/72652ac2f67431a3e77bb1cf5c1d28775822e548_1733199077.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": "گوشی عکاسی",
+      "id": "351a"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/129e8d23fa45abee71568d30ed8296ab7d6d0738_1733263590.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": "عکاسی با گوشی",
+      "id": "41df"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/c8e24242b90651a12bc7ccc7b5c1ed1d435b94f7_1732805081.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": "گوشی برای عکاسی",
+      "id": "9748"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/34f9f240fea35cf1467bffaf6cbbda0cfc17d474_1732912602.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": "عکاسی با گوشی ",
+      "id": "3cc2"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/b588eeafba27e3f7e070c6dcddd344f3a5c2f4b2_1732816989.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": "گوشی عکاسی حرفه‌ای",
+      "id": "8759"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/3d146b9ac253eaf73b126ce74f4589a505bdb5f1_1732400501.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": "عکاسی با گوشی ",
+      "id": "18e3"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/3e0a40012b566a084c4e4861afd8bd1f176d508c_1732856404.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": "گوشی برای عکاسی ",
+      "id": "0e69"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-content-x-post-media/441f948275c03561e96b94f8852d2de9128b246f_1732856474.jpg?x-oss-process=image/resize,m_fill,h_115,w_115",
+      "title": "مقایسه لپ تاپ ها",
+      "id": "0c46"
+    }
+  ],
+  "header": [
+    {
+      "logo": "../res/main_page/full-horizontal.svg",
+      "login": "../src/login.ts",
+      "loadingimg": "./res/login/full-vertical.svg",
+      "banner": "../res//main_page/efc287e53c2506ef36e20d62ecbcdeff4302cd49_1734187403.gif",
+      "input": "../res/main_page/digi.svg",
+      "id": "92ef"
+    }
+  ],
+  "slides": [
+    {
+      "id": "1",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/59e4889192730b9757028f090ffb5b07648cfdfc_1734251637.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "link": "http://localhost:5173"
+    },
+    {
+      "id": "2",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/9eb6bffb69e76dfb19b16dbe2bcb75a8fadacaaa_1734173861.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "link": "http://localhost:5173"
+    },
+    {
+      "id": "3",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/ce4b36b324c533239b61956b9b83b3a70d483d7e_1732720629.gif?x-oss-process=image?x-oss-process=image/format,webp",
+      "link": "http://localhost:5173"
+    },
+    {
+      "id": "4",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/0b03eca5fa5a7e9e497c058fab48637b86db999d_1734335964.gif?x-oss-process=image?x-oss-process=image/format,webp",
+      "link": "http://localhost:5173"
+    },
+    {
+      "id": "5",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/babe14e382d74d7af07209e53b0e66d74b885604_1733920014.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "link": "http://localhost:5173"
+    },
+    {
+      "id": "6",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/21d8431e542049f938411ed5ef5245637406c57d_1733919685.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "link": "http://localhost:5173"
+    },
+    {
+      "id": "7",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/e3a5c279abd1981e5232da7693fa3de6c8d53e58_1734161644.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "link": "http://localhost:5173"
+    },
+    {
+      "id": "8",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/6ad1e6d83597368f635780caf9b36bb1c8b94fe9_1734347424.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "link": "http://localhost:5173"
+    },
+    {
+      "id": "9",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/3442824c499fae880945385c47d9d46970e8ab4e_1728469578.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "link": "http://localhost:5173"
+    },
+    {
+      "id": "10",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/3305a7fb60fae602cd79100e9e28b8890b811ba2_1734334062.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "link": "http://localhost:5173"
+    },
+    {
+      "id": "11",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/edac006c4ee028f9d2e5d6dad8b84f3e611e0f02_1734348494.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "link": "http://localhost:5173"
+    }
+  ],
+  "slider": [
+    [
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/25804b8cb794b9ff36002f37117c4d84764d0475_1733131384.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "موبایل"
+      },
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/38484bbb412223b1eccb85047c5caf4202e362e1_1733131530.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "تجهیزات پزشکی و سلامت"
+      }
+    ],
+    [
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/811055abd27571021d484336b05c3d867993cc4f_1733131393.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "کالای دیجیتال"
+      },
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/202435741cee671580b15b215f208e96d8badf69_1733131548.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "خودرو و موتور سیکلت"
+      }
+    ],
+    [
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/e2ec23cbb06bcf8461eae13e188b1036553da148_1733131406.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "کتاب و لوازم تحریر "
+      },
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/5cc11e8e1d8e3cdbcfb13dde4f784f8de9544b28_1733131558.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "ابزار آلات و ن  جهیزات"
+      }
+    ],
+    [
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/92bd44f2cdb518e533c6bb4d52ea68c3d741f4ea_1733131423.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "خانه و آشپزی"
+      },
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/58ab49968071551785ba7b7c0b6fab6e41a135c3_1733131568.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "کارت هدیه"
+      }
+    ],
+    [
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/cf66c8ecfdd57549773cc7fd379d7b73cdfebf5a_1733131436.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "لوازم خانگی"
+      },
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/67742925ecdee66602161472466550cec0d84a6d_1733131580.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "کالای خوراکی"
+      }
+    ],
+    [
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/285792b2a54984c4570ba6bd61d5bfb8beb8f3b6_1733131459.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "مد و پوشاک"
+      },
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/9617736d06b5bdded22100ae967542e720449c55_1733131617.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "اسباب بازی"
+      }
+    ],
+    [
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/415b937ea92f8d6881ed0b5bb0f9fd5b536674db_1733131478.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "طلا نقره"
+      },
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/18864f7f01629bf782bc6615e42122761ac5c1fe_1733131540.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "ورزش سفر"
+      }
+    ],
+    [
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/554f74e939eba973d2f2d9abcd4cd3f8606642f7_1733131506.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "آرایش بهداشتی"
+      },
+      {
+        "image": "https://dkstatics-public.digikala.com/digikala-mega-menu/554f74e939eba973d2f2d9abcd4cd3f8606642f7_1733131506.png?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "title": "محصولات بومی"
+      }
+    ]
+  ],
+  "introduction": [
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/a7e5364169b72537aeb5526939a98daf1dc88c01_1734347405.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "title": "گوشی Galaxy S24 Ultra",
+      "id": "84e9"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/94abbcbb95f0b62ec42b1875f5c7b65c48e95cd0_1733919173.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "title": "گوشی iPhone 16 Pro Max ZAA",
+      "id": "2f8b"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/862021378ac83e147c65a918725c77c1a5cd40a0_1734247287.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "title": "گوشی Galaxy A55",
+      "id": "e210"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/c208d0093900560e83c8c9fd6b926266eb2a925e_1733920344.jpg?x-oss-process=image/quality,q_95/format,webp",
+      "title": "گوشی Galaxy A55",
+      "id": "6bf4"
+    }
+  ],
+  "swiper": [
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-bellatrix/e4de6f360fcda4f501f21419ba40a100460740cd_1733129128.png",
+      "title": "دریافت وام",
+      "id": "30e3"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-bellatrix/d78a662c6ce4cdf6f06a548ab6e8c07bd342a6ea_1733910744.png",
+      "title": "میزبانی یلدا",
+      "id": "4cdd"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-bellatrix/dd15beba14604984b3cc0ee0b70f7f8fab1e5bd1_1734438475.png",
+      "title": "یلدا سوپر مارکتی",
+      "id": "3b9d"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-bellatrix/bf8ae0c5aa35081297bd7c29bfcbd17ff7413a34_1733146297.png",
+      "title": "طلای دیچیتال",
+      "id": "9c89"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-bellatrix/cc90a533986d6672b68f1f38c8683ef94d74c497_1727699529.png",
+      "title": "خرید موبایل",
+      "id": "0e12"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-bellatrix/314ccaa654b6c66d50b51cf2659f116d931698e3_1734423932.png",
+      "title": "یلدای بومی",
+      "id": "60c1"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-bellatrix/32a266c6ac60a46e86b33b37b6f59e1a5c33550f_1734418240.png",
+      "title": "غدا حاضره",
+      "id": "1f68"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-bellatrix/78ccd40cbf305fb067de78ddab5be84f69589c8d_1669150455.png",
+      "title": "پلاس",
+      "id": "ba51"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-bellatrix/bb03641a188f3a74ec493d0790da87074492f64b_1708970740.png",
+      "title": "خرید چکی",
+      "id": "638a"
+    }
+  ],
+  "card": [
+    [
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_laptop._SY116_CB558654384_.jpg",
+        "title": "لپ تاپ"
+      },
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Desktops._SY116_CB558654384_.jpg",
+        "title": "کامپیوتر"
+      },
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Accessories._SY116_CB558654384_.jpg",
+        "title": "کول پد"
+      },
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Hard_Drives._SY116_CB558654384_.jpg",
+        "title": "هارد"
+      }
+    ],
+    [
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg",
+        "title": "کیبورد"
+      },
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg",
+        "title": "هدفون"
+      },
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg",
+        "title": "صندلی"
+      },
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg",
+        "title": "موس"
+      }
+    ],
+    [
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/CE/GamingWeek24/Homepage/DQC/CE24_SUM_GW_DQC_NE_GamingWeek_Xbox_v2_1x._SY116_CB558844445_.jpg",
+        "title": "وسایل "
+      },
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/CE/GamingWeek24/Homepage/DQC/CE24_SUM_GW_DQC_NW_GamingWeek_PC_v2_1x._SY116_CB558844445_.jpg",
+        "title": "لپ تاپ "
+      },
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/CE/GamingWeek24/Homepage/DQC/CE24_SUM_GW_DQC_SE_GamingWeek_Nintendo_v2_1x._SY116_CB558844445_.jpg",
+        "title": "دیسک "
+      },
+      {
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/CE/GamingWeek24/Homepage/DQC/CE24_SUM_GW_DQC_SW_GamingWeek_Sony_v2_1x._SY116_CB558844445_.jpg",
+        "title": "انیمیشن"
+      }
+    ]
+  ],
+  "Reading": [
+    {
+      "image": "https://www.digikala.com/mag/wp-content/uploads/2024/12/barjil.mag_.1200.jpg",
+      "title": "لیست آجیل‌های خون‌ساز برای شب یلدا",
+      "id": "9dd8"
+    },
+    {
+      "image": "https://www.digikala.com/mag/wp-content/uploads/2024/12/best-iranian-tv-series.jpg",
+      "title": "بهترین سریال‌های ایرانی تاریخ",
+      "id": "5212"
+    },
+    {
+      "image": "https://www.digikala.com/mag/wp-content/uploads/2024/12/beet-salad-vinaigrette-wooden-bowl.jpg",
+      "title": "طرز تهیه انواع سالاد لبو ویژه شب یلدا",
+      "id": "fd1b"
+    },
+    {
+      "image": "https://www.digikala.com/mag/wp-content/uploads/2024/12/Best-Speaker-5M-9.webp",
+      "title": "راهنمای خرید بهترین اسپیکر تا ۵ میلیون تومان",
+      "id": "291d"
+    }
+  ],
+  "footer": [
+    {
+      "logo": "https://www.digikala.com/brand/full-horizontal.svg",
+      "phone": "09194565784",
+      "numberphone": "۰۲۱-۹۱۰۰۰۱۰۰",
+      "link": "https://www.digikala.com",
+      "linkimage": "https://www.digikala.com/brand/full-horizontal.svg",
+      "id": "a5e4"
+    }
+  ],
+  "after": [
+    {
+      "id": "1",
+      "imgf": "https://dkstatics-public.digikala.com/digikala-adservice-banners/45ac36028c0cb2ea535dedad182f89d9d7f53a1f_1729931431.jpg?x-oss-process=image/quality,q_95/format,webp"
+    },
+    {
+      "id": "2",
+      "imgf": "https://dkstatics-public.digikala.com/digikala-adservice-banners/94abbcbb95f0b62ec42b1875f5c7b65c48e95cd0_1733919173.jpg?x-oss-process=image/quality,q_95/format,webp"
+    },
+    {
+      "id": "3",
+      "imgf": "https://dkstatics-public.digikala.com/digikala-adservice-banners/862021378ac83e147c65a918725c77c1a5cd40a0_1734247287.jpg?x-oss-process=image/quality,q_95/format,webp"
+    },
+    {
+      "id": "4",
+      "imgf": "https://dkms.digikala.com/static/files/3ea4f643.jpg?x-oss-process=image/format,webp"
+    }
+  ],
+  "basket": [
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-products/c23b49b0be1c4ae5b2a3d7a3281d2f1731065243_1726037574.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "title": "گوشی Galaxy S24 Ultra",
+      "mahsole": "phone",
+      "money": "تومان 120.000.000",
+      "id": "1e33"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-products/3d63a44c590922d0e0c979621933e3be67d384de_1732005552.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "title": "گوشی iPhone 16 Pro Max ZAA",
+      "mahsole": "phone",
+      "money": "تومان 120.000.000",
+      "id": "8365"
+    },
+    {
+      "image": "https://dkstatics-public.digikala.com/digikala-products/0a5e74229cb456ce6689a834c4ba1e566fc03937_1727520302.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80",
+      "title": "گوشی Galaxy A55",
+      "mahsole": "phone",
+      "money": "تومان 120.000.000",
+      "id": "4e1b"
+    }
+  ]
+}

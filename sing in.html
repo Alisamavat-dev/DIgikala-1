@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ورود به سیستم</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .input-focus:focus {
+        @apply ring-2 ring-red-500;
+      }
+      .button-hover:hover {
+        @apply bg-red-700 transform scale-105 transition-transform duration-150;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-r from-red-500 to-red-300 flex items-center justify-center min-h-screen"
+  >
+    <div
+      class="bg-white shadow-lg rounded-lg p-8 w-96 transform transition-all duration-500 hover:shadow-xl"
+    >
+      <h1 class="text-2xl font-bold mb-6 text-center text-red-600">
+        ورود به سیستم
+      </h1>
+      <form id="loginForm">
+        <div class="mb-4">
+          <label for="username" class="block text-sm font-medium text-gray-700"
+            >نام کاربری:</label
+          >
+          <input
+            type="text"
+            id="username"
+            required
+            class="input-focus mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none"
+            placeholder="نام کاربری خود را وارد کنید"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="password" class="block text-sm font-medium text-gray-700"
+            >رمز عبور:</label
+          >
+          <input
+            type="password"
+            id="password"
+            required
+            class="input-focus mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none"
+            placeholder="رمز عبور خود را وارد کنید"
+          />
+        </div>
+        <button
+          type="submit"
+          class="button-hover w-full bg-red-600 text-white py-2 rounded-md transition duration-150 ease-in-out"
+        >
+          ورود
+        </button>
+      </form>
+      <p id="error" class="text-red-500 text-sm mt-4 text-center"></p>
+    </div>
+
+    <script src="./src/components/ts/sing in.ts"></script>
+  </body>
+</html>
